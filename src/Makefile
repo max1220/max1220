@@ -27,7 +27,7 @@ EGL_LIBS ?= -ldrm -lEGL -lGLESv2 -lgbm
 
 #LDB_MODULES ?= core module_fb module_sdl module_gfx module_drm module_egl
 # TODO: currently build egl only for testing
-LDB_MODULES ?= core module_gfx module_egl
+LDB_MODULES ?= core module_gfx module_image module_egl
 
 STRIP ?= strip
 
@@ -57,6 +57,11 @@ core: ldb_core.so
 module_gfx: ldb_gfx.so
 	$(STRIP) $^
 	@echo "-> Building extended graphics primitives module finished"
+
+.PHONY: module_image
+module_image: ldb_image.so
+	$(STRIP) $^
+	@echo "-> Building image loading module finished"
 
 .PHONY: module_sdl
 module_sdl: ldb_sdl.so
@@ -98,6 +103,14 @@ ldb_gfx.o: ldb_gfx.c
 	$(CC) -o $@ -fPIC $(CFLAGS) $(LUA_CFLAGS) -c $^
 
 ldb_gfx.so: ldb_gfx.o ldb_core.o
+	$(CC) -o $@ $(CFLAGS) $(LUA_CFLAGS) $^ $(LIBFLAG) $(LUA_LIBS)
+
+
+
+ldb_image.o: ldb_image.c
+	$(CC) -o $@ -fPIC $(CFLAGS) $(LUA_CFLAGS) -c $^
+
+ldb_image.so: ldb_image.o ldb_core.o
 	$(CC) -o $@ $(CFLAGS) $(LUA_CFLAGS) $^ $(LIBFLAG) $(LUA_LIBS)
 
 
