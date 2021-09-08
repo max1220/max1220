@@ -3,7 +3,7 @@
 My name is Max Sahm.
 On the internet I mostly go by max1220.
 
-You've found my github profile.
+You've found my GitHub profile.
 On here I mostly put my personal projects that *sometimes* *maybe* **eventually** are useful in some small way.
 
 
@@ -16,4 +16,4 @@ On here I mostly put my personal projects that *sometimes* *maybe* **eventually*
 
 
 You can reach me by writing an e-mail to `max@max1220.de`.
-I'm a native german speaker, and also speak english. 
+I'm a native german speaker, and I also speak english. 
