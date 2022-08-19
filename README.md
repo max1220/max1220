@@ -11,7 +11,7 @@ On here I mostly put my personal projects that *sometimes* *maybe* **eventually*
 - 🌕 My programming language of choice is Lua
 - 🌊 For Lua I've also learned & now am fluent in C.
 - 👊 I’m also writing a lot of Bash scripts ...
-- 🌐 I learned HTML when I was 8 and I [still do it](https://max1220.de/css/)
+- 🌐 I learned HTML when I was 8 and I [still learning](https://max1220.de/css/)
 - 🐧 I always use Linux, except sometimes for games. Linux is cool 🕶
 
 I have a homepage at [max1220.de](https://max1220.de).
