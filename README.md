@@ -7,7 +7,7 @@ You've found my GitHub profile.
 On here I mostly put my personal projects that *sometimes* *maybe* **eventually** are useful in some small way.
 
 
-- ⌨ I’m currently working on PinePhone-related stuff
+- ⌨ I’m currently working on my Lua libraries
 - 🌕 My programming language of choice is Lua
 - 🌊 For Lua I've also learned & now am fluent in C.
 - 👊 I’m also writing a lot of Bash scripts ...
