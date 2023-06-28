@@ -14,7 +14,7 @@ Here I publish my software projects, usually developed just for fun or to solve 
 - 🌐 I've learned HTML when I was 8, some [CSS](https://max1220.de/css/) and JS later
 - 🐧 I mostly use Debian Linux. Linux is cool 🕶
 
-I have a homepage at [max1220.de](https://max1220.de).
+I have a homepage at [max1220.de](https://max-sahm.de).
 
 You can reach me by writing an e-mail to `max@max1220.de`.
 I'm a native german speaker, and I'm also fluent in english. 
