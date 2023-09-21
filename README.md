@@ -11,12 +11,12 @@ Here I publish my software projects, usually developed just for fun or to solve 
 - 🌕 My programming language of choice is Lua
 - 🌊 For Lua I've also learned & now am fluent in C.
 - 👊 I’m also writing a lot of Bash scripts ...
-- 🌐 I've learned HTML when I was 8, some [CSS](https://max1220.de/css/) and JS later
+- 🌐 I've learned HTML when I was 8, some CSS and JS not much later
 - 🐧 I mostly use Debian Linux. Linux is cool 🕶
 
-I have a homepage at [max1220.de](https://max-sahm.de).
+I have a homepage at [max-sahm.de](https://max-sahm.de).
 
-You can reach me by writing an e-mail to `max@max1220.de`.
+You can reach me by writing an e-mail to `max@max-sahm.de`.
 I'm a native german speaker, and I'm also fluent in english. 
 
 Issues, comments, pull requests, etc. are always welcome!
